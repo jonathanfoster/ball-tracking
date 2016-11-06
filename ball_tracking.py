@@ -40,6 +40,8 @@ while True:
             cv2.circle(frame, (int(x), int(y)), int(radius), (0, 255, 255), 2)
 
     cv2.imshow("Frame", frame)
+    cv2.imshow("Mask", mask)
+
     key = cv2.waitKey(1) & 0xFF
 
     if key == ord("q"):
