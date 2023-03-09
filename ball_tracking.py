@@ -8,6 +8,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", help="path to the (optional) video file")
 args = vars(ap.parse_args())
 
+print("hello kss ")
+
+
 greenLower = (29, 86, 6)
 greenUpper = (64, 255, 255)
 
