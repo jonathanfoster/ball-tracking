@@ -10,6 +10,8 @@ args = vars(ap.parse_args())
 
 print("hello kss ")
 
+print("ugwehjg")
+
 
 greenLower = (29, 86, 6)
 greenUpper = (64, 255, 255)
